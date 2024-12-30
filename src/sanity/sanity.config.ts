@@ -10,8 +10,8 @@ const dataset:any =process.env.NEXT_SANITY_DATASET
 export const SanityConfig =defineConfig({
     name:'default',
     title:'/studio',
-    projectId:projectId,
-    dataset:dataset,
+    projectId:'vursk5ej',
+    dataset:'production',
     plugins:[structureTool(),visionTool()],
     basePath:'/studio',
     schema:{

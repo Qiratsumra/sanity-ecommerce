@@ -4,7 +4,7 @@ const projectId = process.env.NEXT_SANITY_PROJECT_ID
 const dataset =process.env.NEXT_SANITY_DATASET
 
 const SanityClient:ClientConfig = {
-    projectId:projectId,
+    projectId:'vursk5ej',
     dataset:dataset,
     apiVersion:'2024-12-28',
     useCdn:true
